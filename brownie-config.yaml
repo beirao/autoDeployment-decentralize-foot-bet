@@ -1,0 +1,19 @@
+dotenv: .env
+linkFundAmount: 100000000000000000
+networks:
+  default: goerli
+  goerli:
+    linkToken: "0x326c977e6efc84e512bb9c30f76e30c160ed06fb"
+    jobId: "29fa9aa13bf1468788b7cc4a500a45b8"
+    oracle: "0xf3FBB7f3391F62C8fe53f89B41dFC8159EE9653f"
+    fee: "100000000000000000"
+    host: ${GOERLI_RPC_URL}
+    verify: True
+  mainnet-fork:
+    linkToken: "0x326c977e6efc84e512bb9c30f76e30c160ed06fb"
+    jobId: "29fa9aa13bf1468788b7cc4a500a45b8"
+    oracle: "0xf3FBB7f3391F62C8fe53f89B41dFC8159EE9653f"
+    fee: "100000000000000000"
+    verify: False
+wallets:
+  from_key: ${PRIVATE_KEY}

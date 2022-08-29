@@ -1,0 +1,14 @@
+minimumTimeBeforeDeployment: 1 # jour
+deltaTimeForDeployment: 2 # jour
+listBetLeague:
+  # - "Ligue 1"
+  # - "Serie A"
+  - "Primeira Liga"
+  # - "Premier League"
+  # - "UEFA Champions League"
+  # - "Bundesliga"
+  # - "Primera Division"
+  # - "FIFA World Cup"
+  # - "European Championship"
+
+databasePath: "../bdd_match.db"
