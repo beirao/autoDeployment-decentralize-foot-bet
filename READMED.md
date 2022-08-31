@@ -30,7 +30,3 @@ CREATE TABLE "match" (
     PRIMARY KEY("match_id")
 );
 ```
-
-git remote add origin https://github.com/beirao/centralize-backend-decentralize-foot-bet.git
-git branch -M main
-git push -u origin main

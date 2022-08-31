@@ -1,5 +1,6 @@
-minimumTimeBeforeDeployment: 1 # jour
-deltaTimeForDeployment: 2 # jour
+minimumTimeBeforeDeployment: 1 # days
+deltaTimeForDeployment: 2 # days
+deltaTimedeploymentUpdate: 12 # hours
 listBetLeague:
   # - "Ligue 1"
   # - "Serie A"
