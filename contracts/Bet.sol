@@ -4,7 +4,6 @@ pragma solidity ^0.8.16;
 import "../chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 import "../chainlink/contracts/src/v0.8/ConfirmedOwner.sol";
 import "../chainlink/contracts/src/v0.8/KeeperCompatible.sol";
-// import "hardhat/console.sol";
 
 // Errors
 error Bet__UpkeepNotNeeded(uint256 currentBalance, uint256 betState);

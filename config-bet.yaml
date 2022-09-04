@@ -3,7 +3,7 @@ deltaTimeForDeployment: 2 # days
 deltaTimedeploymentUpdate: 12 # hours
 listBetLeague:
   # - "Ligue 1"
-  # - "Serie A"
+  - "Serie A"
   - "Primeira Liga"
   # - "Premier League"
   # - "UEFA Champions League"
@@ -13,3 +13,4 @@ listBetLeague:
   # - "European Championship"
 
 databasePath: "../bdd_match.db"
+logPath: "../log_autoDeployment.txt"

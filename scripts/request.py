@@ -5,12 +5,17 @@ import os
 import json
 from datetime import datetime, timedelta
 import yaml
+import logging
 
 with open("config-bet.yaml", "r") as stream:
     try:
         config_bet = yaml.safe_load(stream)
-    except yaml.YAMLError as exc:
-        print(exc)
+    except yaml.YAMLError as e:
+        print(e)
+        logging.error(f"Error yaml : {e}")
+
+logging.basicConfig(filename=config_bet["logPath"], level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(message)s")
 
 def timeIntervaleGenerator5Days():
     def normalizeDate(date) : 
@@ -54,7 +59,9 @@ def requestMatchPlanning() :
         res = requests.request("GET", url, headers={ "X-Auth-Token":os.getenv('FOOT_API_KEY')}, data={})
         return jsonMatchNormalization(res)
     except Exception as e :
-        print("Error :",e)
+        print("Error requestMatchPlanning :",e)
+        logging.error(f"Error requestMatchPlanning : {e}")
+
    
 if __name__ == "__main__":
     print(requestMatchPlanning())

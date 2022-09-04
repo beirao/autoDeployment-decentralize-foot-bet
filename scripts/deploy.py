@@ -3,12 +3,17 @@ from brownie import Bet, network, config, Contract, accounts
 import sys
 import sqlite3 as db
 import yaml
+import logging
 
 with open("config-bet.yaml", "r") as stream:
     try:
         config_bet = yaml.safe_load(stream)
-    except yaml.YAMLError as exc:
-        print(exc)
+    except yaml.YAMLError as e:
+        print(e)
+        logging.error(f"Error yaml : {e}")
+
+logging.basicConfig(filename=config_bet["logPath"], level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(message)s")
 
 FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork", "mainnet-fork-dev"]
 LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["development", "ganache-local"]
@@ -41,6 +46,8 @@ def saveAddrDb(contractAddress, matchId) :
         
     except Exception as e :
         print("Error saveAddrDb :",e)
+        logging.error(f"Error saveAddrDb : {e}")
+
 
     finally :
         connection.close()
@@ -75,11 +82,14 @@ def deployBet(matchId, matchTimestamp):
         tx = LinkToken.transfer(bet.address, config["linkFundAmount"], {"from": account})
         tx.wait(1)
         print("Fund link contract!")
+        logging.info(f"Deployed at : {bet.address}")
 
         saveAddrDb(bet.address, matchId)
 
     except Exception as e :
-        print("Error main :",e,file=sys.stderr)
+        print("Error deployBet  :",e,file=sys.stderr)
+        logging.error(f"Error deployBet : {e}")
+
 
 
 
