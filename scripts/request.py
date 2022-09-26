@@ -7,7 +7,8 @@ from datetime import datetime, timedelta
 import yaml
 import logging
 
-with open("config-bet.yaml", "r") as stream:
+
+with open("ext/config-bet.yaml", "r") as stream:
     try:
         config_bet = yaml.safe_load(stream)
     except yaml.YAMLError as e:
@@ -17,18 +18,18 @@ with open("config-bet.yaml", "r") as stream:
 logging.basicConfig(filename=config_bet["logPath"], level=logging.INFO,
         format="%(asctime)s %(levelname)s %(message)s")
 
-def timeIntervaleGenerator5Days():
+def timeIntervaleGenerator():
     def normalizeDate(date) : 
         return "0"+ str(date) if date < 10  else str(date)
  
     now = datetime.now() + timedelta(days=config_bet["minimumTimeBeforeDeployment"])
-    nowPlus5 = now + timedelta(days=config_bet["deltaTimeForDeployment"])
+    nowPlus = now + timedelta(days=config_bet["deltaTimeForDeployment"])
 
-    return f"dateTo={nowPlus5.year}-{normalizeDate(nowPlus5.month)}-{normalizeDate(nowPlus5.day)}&dateFrom={now.year}-{normalizeDate(now.month)}-{normalizeDate(now.day)}"
+    return f"dateFrom={now.year}-{normalizeDate(now.month)}-{normalizeDate(now.day)}&dateTo={nowPlus.year}-{normalizeDate(nowPlus.month)}-{normalizeDate(nowPlus.day)}"
 
 def jsonMatchNormalization(res) :
     # [(match_id, date, status, league_id, league_string, home_id, home_string, home_logo, away_id, away_string, away_logo, isDeployed, contractAddress)]
-    matchsData = []
+    matchesData = []
     res = json.loads(res.text)
 
     for i in range(res['resultSet']['count']) :
@@ -49,13 +50,13 @@ def jsonMatchNormalization(res) :
         # date to timestamp
         match_timestamp = datetime.timestamp(datetime.strptime(date, '%Y-%m-%dT%H:%M:%SZ'))
         
-        matchsData.append((match_id, match_timestamp, status, league_id, league_string, home_id, home_string, home_logo, away_id, away_string, away_logo, isDeployed, address))
-    return matchsData
+        matchesData.append((match_id, match_timestamp, status, league_id, league_string, home_id, home_string, home_logo, away_id, away_string, away_logo, isDeployed, address))
+    return matchesData
 
 def requestMatchPlanning() :
     try : 
         load_dotenv()
-        url = f"https://api.football-data.org/v4/matches?{timeIntervaleGenerator5Days()}"
+        url = f"https://api.football-data.org/v4/matches?{timeIntervaleGenerator()}"
         res = requests.request("GET", url, headers={ "X-Auth-Token":os.getenv('FOOT_API_KEY')}, data={})
         return jsonMatchNormalization(res)
     except Exception as e :

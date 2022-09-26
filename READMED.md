@@ -13,7 +13,7 @@ brownie run scripts/main.py
 ## SQL Create table match
 
 ```sql
-CREATE TABLE "match" (
+CREATE TABLE "matchs" (
     "match_id" INTEGER UNIQUE,
     "date" INTEGER,
     "status" TEXT,

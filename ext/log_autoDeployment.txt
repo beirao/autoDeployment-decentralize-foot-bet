@@ -1,0 +1,299 @@
+2022-09-25 16:48:43,039 INFO --------------------------------------- RUN UPDATE ---------------------------------------
+2022-09-25 16:48:52,908 INFO All matches were up-to-date
+2022-09-25 16:49:41,493 INFO --------------------------------------- RUN UPDATE ---------------------------------------
+2022-09-25 16:49:48,508 INFO All matches were up-to-date
+2022-09-25 16:56:51,387 INFO --------------------------------------- RUN UPDATE ---------------------------------------
+2022-09-25 16:56:57,872 INFO All matches were up-to-date
+2022-09-25 17:11:00,572 INFO --------------------------------------- RUN UPDATE ---------------------------------------
+2022-09-25 17:11:07,502 INFO All matches were up-to-date
+2022-09-25 17:12:11,710 INFO --------------------------------------- RUN UPDATE ---------------------------------------
+2022-09-25 17:12:18,010 INFO All matches were up-to-date
+2022-09-25 17:12:44,776 INFO --------------------------------------- RUN UPDATE ---------------------------------------
+2022-09-25 17:12:51,094 INFO All matches were up-to-date
+2022-09-25 17:14:16,462 INFO --------------------------------------- RUN UPDATE ---------------------------------------
+2022-09-25 17:14:22,838 INFO DB updated, match ID : 390125
+2022-09-25 17:14:22,839 INFO DB updated, match ID : 390126
+2022-09-25 17:14:22,839 INFO DB updated, match ID : 390129
+2022-09-25 17:14:22,839 INFO DB updated, match ID : 390123
+2022-09-25 17:14:22,840 INFO DB updated, match ID : 390128
+2022-09-25 17:14:22,840 INFO DB updated, match ID : 390121
+2022-09-25 17:14:22,840 INFO DB updated, match ID : 390122
+2022-09-25 17:14:22,841 INFO DB updated, match ID : 390124
+2022-09-25 17:14:22,841 INFO DB updated, match ID : 390130
+2022-09-25 17:14:22,841 INFO DB updated, match ID : 422911
+2022-09-25 17:14:22,842 INFO DB updated, match ID : 416636
+2022-09-25 17:14:22,842 INFO DB updated, match ID : 419224
+2022-09-25 17:14:22,843 INFO DB updated, match ID : 422536
+2022-09-25 17:14:22,843 INFO DB updated, match ID : 417185
+2022-09-25 17:14:22,844 INFO DB updated, match ID : 422917
+2022-09-25 17:14:22,852 INFO Deploying : match ID 390121 league Campeonato Brasileiro Série A
+2022-09-25 17:15:02,646 INFO Deploying : match ID 390122 league Campeonato Brasileiro Série A
+2022-09-25 17:24:46,113 ERROR Error deployBet : 'fundAmount'
+2022-09-25 17:28:38,281 INFO Deployed at : 0xd3fCeeB796654AeFc859557DEc1CF0934CF43cf7
+2022-09-26 09:45:14,709 INFO DB updated, match ID : 390125
+2022-09-26 09:45:14,711 INFO DB updated, match ID : 390126
+2022-09-26 09:45:14,711 INFO DB updated, match ID : 390123
+2022-09-26 09:45:14,712 INFO DB updated, match ID : 390129
+2022-09-26 09:45:14,712 INFO DB updated, match ID : 390128
+2022-09-26 09:45:14,712 INFO DB updated, match ID : 390121
+2022-09-26 09:45:14,713 INFO DB updated, match ID : 390130
+2022-09-26 09:45:14,713 INFO DB updated, match ID : 390124
+2022-09-26 09:45:14,713 INFO DB updated, match ID : 390122
+2022-09-26 09:45:14,714 INFO DB updated, match ID : 422911
+2022-09-26 09:45:14,714 INFO DB updated, match ID : 416636
+2022-09-26 09:45:14,714 INFO DB updated, match ID : 417185
+2022-09-26 09:45:14,715 INFO DB updated, match ID : 422536
+2022-09-26 09:45:14,715 INFO DB updated, match ID : 419224
+2022-09-26 09:45:14,715 INFO DB updated, match ID : 422917
+2022-09-26 09:45:14,716 INFO DB updated, match ID : 416304
+2022-09-26 09:45:14,716 INFO DB updated, match ID : 419232
+2022-09-26 09:45:14,716 INFO DB updated, match ID : 418836
+2022-09-26 09:45:14,716 INFO DB updated, match ID : 416635
+2022-09-26 09:45:14,717 INFO DB updated, match ID : 416631
+2022-09-26 09:45:14,717 INFO DB updated, match ID : 416633
+2022-09-26 09:45:14,717 INFO DB updated, match ID : 416634
+2022-09-26 09:45:14,718 INFO DB updated, match ID : 416632
+2022-09-26 09:45:14,718 INFO DB updated, match ID : 422535
+2022-09-26 09:45:14,718 INFO DB updated, match ID : 422531
+2022-09-26 09:45:14,718 INFO DB updated, match ID : 422537
+2022-09-26 09:45:14,719 INFO DB updated, match ID : 422533
+2022-09-26 09:45:14,719 INFO DB updated, match ID : 422539
+2022-09-26 09:45:14,719 INFO DB updated, match ID : 416302
+2022-09-26 09:45:14,720 INFO DB updated, match ID : 416298
+2022-09-26 09:45:14,720 INFO DB updated, match ID : 422530
+2022-09-26 09:45:14,720 INFO DB updated, match ID : 422532
+2022-09-26 09:45:14,721 INFO DB updated, match ID : 422538
+2022-09-26 09:45:14,721 INFO DB updated, match ID : 422534
+2022-09-26 09:45:14,721 INFO DB updated, match ID : 416303
+2022-09-26 09:45:14,721 INFO DB updated, match ID : 422541
+2022-09-26 09:45:14,721 INFO DB updated, match ID : 416296
+2022-09-26 09:45:14,722 INFO DB updated, match ID : 416301
+2022-09-26 09:45:14,722 INFO DB updated, match ID : 419233
+2022-09-26 09:45:14,722 INFO DB updated, match ID : 422909
+2022-09-26 09:45:14,722 INFO DB updated, match ID : 415941
+2022-09-26 09:45:14,723 INFO DB updated, match ID : 417181
+2022-09-26 09:45:14,723 INFO DB updated, match ID : 418840
+2022-09-26 09:45:14,723 INFO DB updated, match ID : 416295
+2022-09-26 09:45:14,724 INFO DB updated, match ID : 416628
+2022-09-26 09:45:14,724 INFO DB updated, match ID : 419229
+2022-09-26 09:45:14,724 INFO DB updated, match ID : 415937
+2022-09-26 09:45:14,724 INFO DB updated, match ID : 422914
+2022-09-26 09:45:14,725 INFO DB updated, match ID : 390111
+2022-09-26 09:45:14,725 INFO DB updated, match ID : 415939
+2022-09-26 09:45:14,725 INFO DB updated, match ID : 390116
+2022-09-26 09:45:14,725 INFO DB updated, match ID : 390117
+2022-09-26 09:45:14,726 INFO DB updated, match ID : 418842
+2022-09-26 09:45:14,726 INFO DB updated, match ID : 419228
+2022-09-26 09:45:14,726 INFO DB updated, match ID : 415938
+2022-09-26 09:45:14,726 INFO DB updated, match ID : 417183
+2022-09-26 09:45:14,727 INFO DB updated, match ID : 422912
+2022-09-26 09:45:14,727 INFO DB updated, match ID : 390113
+2022-09-26 09:45:14,727 INFO DB updated, match ID : 390115
+2022-09-26 09:45:14,727 INFO DB updated, match ID : 390112
+2022-09-26 09:45:14,728 INFO DB updated, match ID : 390114
+2022-09-26 09:45:14,728 INFO DB updated, match ID : 390119
+2022-09-26 09:45:14,732 INFO Deploying : match ID 390111 league Campeonato Brasileiro Série A
+2022-09-26 09:47:02,466 INFO Deployed at : 0x772Ac2485F070c96deDe3411f5407Ab70E1401C9
+2022-09-26 09:47:02,751 INFO Deploying : match ID 390112 league Campeonato Brasileiro Série A
+2022-09-26 09:48:14,768 INFO Deployed at : 0x421d4b21b1c75b6E8Af6094BC5d5a46F46Ffa0DA
+2022-09-26 09:48:15,062 INFO Deploying : match ID 390113 league Campeonato Brasileiro Série A
+2022-09-26 09:54:59,645 INFO DB updated, match ID : 390125
+2022-09-26 09:54:59,646 INFO DB updated, match ID : 390129
+2022-09-26 09:54:59,647 INFO DB updated, match ID : 390128
+2022-09-26 09:54:59,647 INFO DB updated, match ID : 390123
+2022-09-26 09:54:59,648 INFO DB updated, match ID : 390126
+2022-09-26 09:54:59,648 INFO DB updated, match ID : 390121
+2022-09-26 09:54:59,649 INFO DB updated, match ID : 390130
+2022-09-26 09:54:59,649 INFO DB updated, match ID : 390122
+2022-09-26 09:54:59,650 INFO DB updated, match ID : 390124
+2022-09-26 09:54:59,651 INFO DB updated, match ID : 422911
+2022-09-26 09:54:59,651 INFO DB updated, match ID : 416636
+2022-09-26 09:54:59,652 INFO DB updated, match ID : 419224
+2022-09-26 09:54:59,652 INFO DB updated, match ID : 417185
+2022-09-26 09:54:59,653 INFO DB updated, match ID : 422536
+2022-09-26 09:54:59,653 INFO DB updated, match ID : 422917
+2022-09-26 09:54:59,654 INFO DB updated, match ID : 416304
+2022-09-26 09:54:59,655 INFO DB updated, match ID : 419232
+2022-09-26 09:54:59,655 INFO DB updated, match ID : 418836
+2022-09-26 09:54:59,656 INFO DB updated, match ID : 416632
+2022-09-26 09:54:59,656 INFO DB updated, match ID : 416634
+2022-09-26 09:54:59,657 INFO DB updated, match ID : 416635
+2022-09-26 09:54:59,657 INFO DB updated, match ID : 416631
+2022-09-26 09:54:59,658 INFO DB updated, match ID : 416633
+2022-09-26 09:54:59,659 INFO DB updated, match ID : 416302
+2022-09-26 09:54:59,659 INFO DB updated, match ID : 416298
+2022-09-26 09:54:59,659 INFO DB updated, match ID : 422539
+2022-09-26 09:54:59,660 INFO DB updated, match ID : 422535
+2022-09-26 09:54:59,660 INFO DB updated, match ID : 422531
+2022-09-26 09:54:59,660 INFO DB updated, match ID : 422537
+2022-09-26 09:54:59,661 INFO DB updated, match ID : 422533
+2022-09-26 09:54:59,661 INFO DB updated, match ID : 416303
+2022-09-26 09:54:59,662 INFO DB updated, match ID : 416296
+2022-09-26 09:54:59,662 INFO DB updated, match ID : 416301
+2022-09-26 09:54:59,662 INFO DB updated, match ID : 422534
+2022-09-26 09:54:59,663 INFO DB updated, match ID : 422530
+2022-09-26 09:54:59,663 INFO DB updated, match ID : 422532
+2022-09-26 09:54:59,663 INFO DB updated, match ID : 422541
+2022-09-26 09:54:59,664 INFO DB updated, match ID : 422538
+2022-09-26 09:54:59,664 INFO DB updated, match ID : 419233
+2022-09-26 09:54:59,664 INFO DB updated, match ID : 422909
+2022-09-26 09:54:59,664 INFO DB updated, match ID : 415941
+2022-09-26 09:54:59,665 INFO DB updated, match ID : 417181
+2022-09-26 09:54:59,665 INFO DB updated, match ID : 418840
+2022-09-26 09:54:59,665 INFO DB updated, match ID : 419229
+2022-09-26 09:54:59,666 INFO DB updated, match ID : 416295
+2022-09-26 09:54:59,666 INFO DB updated, match ID : 416628
+2022-09-26 09:54:59,666 INFO DB updated, match ID : 415937
+2022-09-26 09:54:59,666 INFO DB updated, match ID : 422914
+2022-09-26 09:54:59,667 INFO DB updated, match ID : 390117
+2022-09-26 09:54:59,667 INFO DB updated, match ID : 390116
+2022-09-26 09:54:59,667 INFO DB updated, match ID : 390111
+2022-09-26 09:54:59,668 INFO DB updated, match ID : 415939
+2022-09-26 09:54:59,668 INFO DB updated, match ID : 418842
+2022-09-26 09:54:59,668 INFO DB updated, match ID : 417183
+2022-09-26 09:54:59,668 INFO DB updated, match ID : 415938
+2022-09-26 09:54:59,669 INFO DB updated, match ID : 419228
+2022-09-26 09:54:59,669 INFO DB updated, match ID : 422912
+2022-09-26 09:54:59,669 INFO DB updated, match ID : 390114
+2022-09-26 09:54:59,669 INFO DB updated, match ID : 390112
+2022-09-26 09:54:59,670 INFO DB updated, match ID : 390113
+2022-09-26 09:54:59,670 INFO DB updated, match ID : 390115
+2022-09-26 09:54:59,670 INFO DB updated, match ID : 390119
+2022-09-26 09:54:59,726 INFO Deploying : match ID 390111 league Campeonato Brasileiro Série A
+2022-09-26 09:56:38,947 INFO Deployed at : 0x9C4824F7E0f2B9Cef89D5605d1c84ae85768B265
+2022-09-26 09:56:39,235 INFO Deploying : match ID 390112 league Campeonato Brasileiro Série A
+2022-09-26 10:06:01,099 INFO DB updated, match ID : 390125
+2022-09-26 10:06:01,100 INFO DB updated, match ID : 390126
+2022-09-26 10:06:01,100 INFO DB updated, match ID : 390123
+2022-09-26 10:06:01,101 INFO DB updated, match ID : 390129
+2022-09-26 10:06:01,101 INFO DB updated, match ID : 390128
+2022-09-26 10:06:01,102 INFO DB updated, match ID : 390121
+2022-09-26 10:06:01,103 INFO DB updated, match ID : 390124
+2022-09-26 10:06:01,103 INFO DB updated, match ID : 390130
+2022-09-26 10:06:01,104 INFO DB updated, match ID : 390122
+2022-09-26 10:06:01,104 INFO DB updated, match ID : 422911
+2022-09-26 10:06:01,105 INFO DB updated, match ID : 416636
+2022-09-26 10:06:01,106 INFO DB updated, match ID : 417185
+2022-09-26 10:06:01,106 INFO DB updated, match ID : 422536
+2022-09-26 10:06:01,107 INFO DB updated, match ID : 419224
+2022-09-26 10:06:01,107 INFO DB updated, match ID : 422917
+2022-09-26 10:06:01,108 INFO DB updated, match ID : 416304
+2022-09-26 10:06:01,108 INFO DB updated, match ID : 419232
+2022-09-26 10:06:01,109 INFO DB updated, match ID : 418836
+2022-09-26 10:06:01,109 INFO DB updated, match ID : 416631
+2022-09-26 10:06:01,110 INFO DB updated, match ID : 416633
+2022-09-26 10:06:01,110 INFO DB updated, match ID : 416635
+2022-09-26 10:06:01,111 INFO DB updated, match ID : 416632
+2022-09-26 10:06:01,111 INFO DB updated, match ID : 416634
+2022-09-26 10:06:01,112 INFO DB updated, match ID : 422533
+2022-09-26 10:06:01,113 INFO DB updated, match ID : 416301
+2022-09-26 10:06:01,113 INFO DB updated, match ID : 422539
+2022-09-26 10:06:01,114 INFO DB updated, match ID : 422535
+2022-09-26 10:06:01,115 INFO DB updated, match ID : 416303
+2022-09-26 10:06:01,116 INFO DB updated, match ID : 422531
+2022-09-26 10:06:01,116 INFO DB updated, match ID : 416296
+2022-09-26 10:06:01,117 INFO DB updated, match ID : 422537
+2022-09-26 10:06:01,117 INFO DB updated, match ID : 422541
+2022-09-26 10:06:01,118 INFO DB updated, match ID : 422538
+2022-09-26 10:06:01,119 INFO DB updated, match ID : 422534
+2022-09-26 10:06:01,119 INFO DB updated, match ID : 416302
+2022-09-26 10:06:01,120 INFO DB updated, match ID : 422530
+2022-09-26 10:06:01,121 INFO DB updated, match ID : 422532
+2022-09-26 10:06:01,121 INFO DB updated, match ID : 416298
+2022-09-26 10:06:01,122 INFO DB updated, match ID : 419233
+2022-09-26 10:06:01,123 INFO DB updated, match ID : 415941
+2022-09-26 10:06:01,123 INFO DB updated, match ID : 422909
+2022-09-26 10:06:01,124 INFO DB updated, match ID : 417181
+2022-09-26 10:06:01,125 INFO DB updated, match ID : 418840
+2022-09-26 10:06:01,125 INFO DB updated, match ID : 416295
+2022-09-26 10:06:01,126 INFO DB updated, match ID : 416628
+2022-09-26 10:06:01,126 INFO DB updated, match ID : 419229
+2022-09-26 10:06:01,127 INFO DB updated, match ID : 415937
+2022-09-26 10:06:01,127 INFO DB updated, match ID : 422914
+2022-09-26 10:06:01,128 INFO DB updated, match ID : 415939
+2022-09-26 10:06:01,128 INFO DB updated, match ID : 390116
+2022-09-26 10:06:01,129 INFO DB updated, match ID : 390111
+2022-09-26 10:06:01,129 INFO DB updated, match ID : 390117
+2022-09-26 10:06:01,129 INFO DB updated, match ID : 418842
+2022-09-26 10:06:01,130 INFO DB updated, match ID : 419228
+2022-09-26 10:06:01,130 INFO DB updated, match ID : 415938
+2022-09-26 10:06:01,131 INFO DB updated, match ID : 417183
+2022-09-26 10:06:01,131 INFO DB updated, match ID : 422912
+2022-09-26 10:06:01,131 INFO DB updated, match ID : 390112
+2022-09-26 10:06:01,132 INFO DB updated, match ID : 390114
+2022-09-26 10:06:01,132 INFO DB updated, match ID : 390113
+2022-09-26 10:06:01,133 INFO DB updated, match ID : 390115
+2022-09-26 10:06:01,133 INFO DB updated, match ID : 390119
+2022-09-26 10:06:01,139 INFO Deploying : match ID 390111 league Campeonato Brasileiro Série A
+2022-09-26 10:07:15,425 INFO Deployed at : 0x174a87B150560f4DfFbF31Bd61f6F58D3FcA0220
+2022-09-26 10:07:15,703 INFO Deploying : match ID 390112 league Campeonato Brasileiro Série A
+2022-09-26 10:08:15,132 INFO Deploying : match ID 390112 league Campeonato Brasileiro Série A
+2022-09-26 10:09:02,444 INFO Deploying : match ID 390112 league Campeonato Brasileiro Série A
+2022-09-26 10:09:28,442 ERROR Error main : no such table: match
+2022-09-26 10:10:09,142 ERROR Error main : no such table: match
+2022-09-26 10:13:26,439 INFO --------------------------------------- RUN UPDATE ---------------------------------------
+2022-09-26 10:13:34,101 INFO DB updated, matches ID : 390125
+2022-09-26 10:13:34,101 INFO DB updated, matches ID : 390129
+2022-09-26 10:13:34,102 INFO DB updated, matches ID : 390126
+2022-09-26 10:13:34,103 INFO DB updated, matches ID : 390128
+2022-09-26 10:13:34,103 INFO DB updated, matches ID : 390123
+2022-09-26 10:13:34,104 INFO DB updated, matches ID : 390121
+2022-09-26 10:13:34,104 INFO DB updated, matches ID : 390124
+2022-09-26 10:13:34,105 INFO DB updated, matches ID : 390122
+2022-09-26 10:13:34,106 INFO DB updated, matches ID : 390130
+2022-09-26 10:13:34,107 INFO DB updated, matches ID : 422911
+2022-09-26 10:13:34,107 INFO DB updated, matches ID : 416636
+2022-09-26 10:13:34,108 INFO DB updated, matches ID : 419224
+2022-09-26 10:13:34,108 INFO DB updated, matches ID : 417185
+2022-09-26 10:13:34,109 INFO DB updated, matches ID : 422536
+2022-09-26 10:13:34,109 INFO DB updated, matches ID : 422917
+2022-09-26 10:13:34,110 INFO DB updated, matches ID : 416304
+2022-09-26 10:13:34,111 INFO DB updated, matches ID : 419232
+2022-09-26 10:13:34,111 INFO DB updated, matches ID : 418836
+2022-09-26 10:13:34,112 INFO DB updated, matches ID : 416633
+2022-09-26 10:13:34,112 INFO DB updated, matches ID : 416635
+2022-09-26 10:13:34,113 INFO DB updated, matches ID : 416631
+2022-09-26 10:13:34,113 INFO DB updated, matches ID : 416632
+2022-09-26 10:13:34,114 INFO DB updated, matches ID : 416634
+2022-09-26 10:13:34,114 INFO DB updated, matches ID : 422539
+2022-09-26 10:13:34,115 INFO DB updated, matches ID : 422535
+2022-09-26 10:13:34,115 INFO DB updated, matches ID : 422531
+2022-09-26 10:13:34,116 INFO DB updated, matches ID : 416298
+2022-09-26 10:13:34,116 INFO DB updated, matches ID : 422537
+2022-09-26 10:13:34,117 INFO DB updated, matches ID : 422541
+2022-09-26 10:13:34,117 INFO DB updated, matches ID : 422533
+2022-09-26 10:13:34,117 INFO DB updated, matches ID : 416302
+2022-09-26 10:13:34,118 INFO DB updated, matches ID : 422534
+2022-09-26 10:13:34,118 INFO DB updated, matches ID : 416303
+2022-09-26 10:13:34,119 INFO DB updated, matches ID : 422530
+2022-09-26 10:13:34,119 INFO DB updated, matches ID : 416296
+2022-09-26 10:13:34,119 INFO DB updated, matches ID : 422532
+2022-09-26 10:13:34,120 INFO DB updated, matches ID : 416301
+2022-09-26 10:13:34,120 INFO DB updated, matches ID : 422538
+2022-09-26 10:13:34,120 INFO DB updated, matches ID : 419233
+2022-09-26 10:13:34,121 INFO DB updated, matches ID : 415941
+2022-09-26 10:13:34,121 INFO DB updated, matches ID : 422909
+2022-09-26 10:13:34,121 INFO DB updated, matches ID : 417181
+2022-09-26 10:13:34,122 INFO DB updated, matches ID : 418840
+2022-09-26 10:13:34,122 INFO DB updated, matches ID : 419229
+2022-09-26 10:13:34,122 INFO DB updated, matches ID : 416628
+2022-09-26 10:13:34,122 INFO DB updated, matches ID : 416295
+2022-09-26 10:13:34,123 INFO DB updated, matches ID : 415937
+2022-09-26 10:13:34,123 INFO DB updated, matches ID : 422914
+2022-09-26 10:13:34,123 INFO DB updated, matches ID : 415939
+2022-09-26 10:13:34,124 INFO DB updated, matches ID : 390116
+2022-09-26 10:13:34,124 INFO DB updated, matches ID : 390111
+2022-09-26 10:13:34,124 INFO DB updated, matches ID : 390117
+2022-09-26 10:13:34,124 INFO DB updated, matches ID : 418842
+2022-09-26 10:13:34,125 INFO DB updated, matches ID : 417183
+2022-09-26 10:13:34,125 INFO DB updated, matches ID : 419228
+2022-09-26 10:13:34,125 INFO DB updated, matches ID : 415938
+2022-09-26 10:13:34,125 INFO DB updated, matches ID : 422912
+2022-09-26 10:13:34,126 INFO DB updated, matches ID : 390114
+2022-09-26 10:13:34,126 INFO DB updated, matches ID : 390112
+2022-09-26 10:13:34,126 INFO DB updated, matches ID : 390113
+2022-09-26 10:13:34,127 INFO DB updated, matches ID : 390115
+2022-09-26 10:13:34,127 INFO DB updated, matches ID : 390119
+2022-09-26 10:13:34,183 INFO Deploying : matches ID 390111 league Campeonato Brasileiro Série A
+2022-09-26 10:15:39,248 INFO Deployed at : 0x18Db0ab241C5d22c966C9E0F8994f85426c52838
+2022-09-26 10:15:39,469 INFO Deploying : matches ID 390112 league Campeonato Brasileiro Série A

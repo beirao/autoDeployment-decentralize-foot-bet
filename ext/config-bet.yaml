@@ -1,0 +1,19 @@
+minimumTimeBeforeDeployment: 1 # days
+deltaTimeForDeployment: 5 # days
+deltaTimedeploymentUpdate: 12 # hours
+listBetLeague:
+  - "Ligue 1"
+  - "Serie A"
+  - "Primeira Liga"
+  - "Premier League"
+  - "UEFA Champions League"
+  - "Bundesliga"
+  - "Primera Division"
+  - "Eredivisie"
+  - "Campeonato Brasileiro Série A"
+  - "Copa Libertadores"
+  - "FIFA World Cup"
+  - "European Championship"
+
+databasePath: "ext/matches.db"
+logPath: "ext/log_autoDeployment.txt"
