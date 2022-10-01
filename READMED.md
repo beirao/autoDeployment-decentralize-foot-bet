@@ -4,7 +4,11 @@
 brownie run scripts/deploy.py deployBet matchId matchTimestamp --network goerli
 ```
 
-# cmd : Cron every 12 hours
+This code auto deployment bet contracts for the [Decentralize-foot-bet](https://github.com/beirao/main-decentralize-foot-bet) project using the [football-data.org](https://www.football-data.org/) API.
+
+## cmd : Cron every x hours
+
+You can setup the time interval in "ext/config-bet.yaml".
 
 ```bash
 brownie run scripts/main.py
@@ -29,4 +33,24 @@ CREATE TABLE "matchs" (
     "address" TEXT,
     PRIMARY KEY("match_id")
 );
+```
+
+# Docker
+
+## Build
+
+```bash
+sudo docker build -t auto-deploy-boarbet .
+```
+
+## Run image
+
+```bash
+sudo docker run -v dst:/main/ext auto-deploy-boarbet
+```
+
+## Save the image
+
+```bash
+sudo docker save -o auto-deploy-boarbet.tar auto-deploy-boarbet
 ```

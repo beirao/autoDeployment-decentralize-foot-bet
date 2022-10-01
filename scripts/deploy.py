@@ -1,8 +1,7 @@
-from datetime import datetime
 from brownie import Bet, network, config, Contract, accounts, Wei
 import sys
 import sqlite3 as db
-import yaml
+import yaml, json
 import logging
 
 with open("ext/config-bet.yaml", "r") as stream:
@@ -71,8 +70,9 @@ def deployBet(matchId, matchTimestamp):
         print("Deployed !")
 
         print("Fund contract with LINK...")
+        linkTokenAbi = json.load(open("abi/linkTokenAbi.json"))
         LinkTokenAddr = config["networks"][network.show_active()]["linkToken"]
-        linkToken = Contract.from_explorer(LinkTokenAddr)
+        linkToken = Contract.from_abi("linkToken", LinkTokenAddr, linkTokenAbi)
         tx = linkToken.transfer(bet.address, config["networks"][network.show_active()]["fundAmount"], {"from": account})
         tx.wait(1)
         print("Fund link contract!")
