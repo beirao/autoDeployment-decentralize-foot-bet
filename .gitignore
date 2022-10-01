@@ -27,6 +27,8 @@ typechain
 .env
 .envrc
 *.tar
+.txt
+.db
 
 # Built application files
 .DS*
@@ -41,6 +43,7 @@ typechain
 *.class
 
 # Generated files
+env/
 bin/
 gen/
 out/
