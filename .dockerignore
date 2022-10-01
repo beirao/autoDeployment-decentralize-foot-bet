@@ -1,0 +1,8 @@
+
+/__pycache__
+.pyc
+.gitignore
+README.md
+.git
+*.tar
+LICENSE
