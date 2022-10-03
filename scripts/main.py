@@ -48,7 +48,7 @@ def deployContract(connection, cursor) :
             try :
                 allmatchesUpToDate = False
                 print(f"Deploying : matches ID {i[0]} league {i[4]}")
-                logging.info(f"Deploying : matches ID {i[0]} league {i[4]}")
+                logging.info(f"Deploying : matches ID {i[0]} league {i[4]} - {i[6]} VS {i[9]}")
                 process = subprocess.run(["brownie","run","scripts/deploy.py","deployBet", str(i[0]), str(i[1]), "--network", "goerli"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
                 if(process.stderr != "") :
                     raise Exception(process.stderr)

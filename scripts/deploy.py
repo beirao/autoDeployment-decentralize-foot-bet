@@ -46,7 +46,7 @@ def deployBet(matchId, matchTimestamp):
         print("account : ", account)
 
         # Vars :
-        jobId = config["networks"][network.show_active()]["jobId"]
+        jobId = bytes(config["networks"][network.show_active()]["jobId"],'utf-8')
         oracle = config["networks"][network.show_active()]["oracle"]
         requestFee = config["networks"][network.show_active()]["requestFee"]
         linkTokenAddress = config["networks"][network.show_active()]["linkToken"]
