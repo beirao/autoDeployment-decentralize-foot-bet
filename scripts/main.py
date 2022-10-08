@@ -1,4 +1,3 @@
-from asyncio import FastChildWatcher
 from datetime import datetime
 from nis import match
 import sqlite3 as db
@@ -48,7 +47,7 @@ def deployContract(connection, cursor) :
             try :
                 allmatchesUpToDate = False
                 print(f"Deploying : matches ID {i[0]} league {i[4]}")
-                logging.info(f"Deploying : matches ID {i[0]} league {i[4]} - {i[6]} VS {i[9]}")
+                logging.info(f"Deploying : matches ID {i[0]} league {i[4]} - {i[6]} VS {i[10]}")
                 process = subprocess.run(["brownie","run","scripts/deploy.py","deployBet", str(i[0]), str(i[1]), "--network", "goerli"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
                 if(process.stderr != "") :
                     raise Exception(process.stderr)
@@ -87,9 +86,11 @@ def main() :
                             "home_id" INTEGER NOT NULL,
                             "home_string" TEXT NOT NULL,
                             "home_logo" TEXT,
+                            "home_score" INTEGER,
                             "away_id" INTEGER NOT NULL,
                             "away_string" TEXT NOT NULL,
                             "away_logo" TEXT,
+                            "away_score" INTEGER,
                             "isDeployed" INTEGER,
                             "address" TEXT,
                             PRIMARY KEY("match_id"))''')

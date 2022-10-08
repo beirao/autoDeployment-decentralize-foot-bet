@@ -1,6 +1,7 @@
 minimumTimeBeforeDeployment: 1 # days
 deltaTimeForDeployment: 2 # days
 deltaTimedeploymentUpdate: 1 # hours
+offSetApiBug: 3 # hours
 listBetLeague:
   - "Ligue 1"
   - "Serie A"
