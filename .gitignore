@@ -4,6 +4,8 @@ __pycache__
 .hypothesis/
 build/
 reports/
+*.db
+log*
 
 # vscode
 .vscode
