@@ -1,4 +1,4 @@
-# AutoDeployment_DecentralizedFootBet
+# Auto deployment for [BoarBet](https://github.com/beirao/main-decentralize-foot-bet)
 
 ## Deploy one contract bet
 
